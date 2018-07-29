@@ -14,6 +14,7 @@ body{
   margin: 0;
   border-top: 17px solid #090909;
   font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 100px solid white;
 }
 
 a{
@@ -230,3 +231,34 @@ padding: 0;
 /****************
       Footer
 *****************/
+#footer{
+  background-color: #e2e2e2;
+  height: 120px;
+}
+
+.listFooter{
+  width: 960px;
+  margin: 0 auto;
+
+}
+
+.text4{
+  display: inline-block;
+  color: #5d5d5d;
+  margin-top: 19px;
+  padding-bottom: 4px;
+  padding-right: 3px;
+}
+
+.text4 p :first-child{
+  margin-left: 0px;
+}
+
+.text5{
+  color: #5d5d5d;
+}
+
+.logoFooter{
+  float: right;
+  padding-top: 5px;
+}
