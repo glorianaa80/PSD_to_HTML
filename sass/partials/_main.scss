@@ -1,0 +1,184 @@
+/*
+  Styles
+*/
+
+/****************
+      General
+*****************/
+#container{
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  body{
+    margin: 0;
+    border-top: 17px solid #090909;
+    font-family: $family;
+    border-bottom: 100px solid white;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  /****************
+        Helpers
+  *****************/
+  .clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+  
+  .bb-line{
+    border-bottom: 1px solid #c0c0c0;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  p{
+    font-size: 12px;
+    color: $g; 
+    margin: 0px; 
+  }
+
+  
+  .bbc-line{
+    border-bottom: 6px solid black;
+    margin-bottom: 21px;
+    padding-bottom: 12px;
+  }
+
+  
+  /****************
+        Slider
+  *****************/
+  
+  /****************
+        Content
+  *****************/
+  .box{
+    width: 285px;
+    float: left;
+    margin-left: 52px;
+  }
+  
+  .box:first-child{
+    margin-left: 0;
+  }
+  
+  .titulo {
+    text-transform: uppercase;
+    font-size: 18px;
+    display: inline;
+  }
+  
+  .read{
+     color:$naranja;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 14px; 
+  }
+  
+  .flecha1{
+    margin-right:17px;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  .cuadroChek{
+      height: 16px;
+      width: 16px;
+      background: #cbcbcb;
+      font-size: 8px;
+      text-align: center;
+      display: inline;
+      position: absolute;
+  }
+  
+  .check{
+    width: 245px;
+    height: 42px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-left: 14px;
+  }
+  
+  .lista{
+  padding: 0;
+  }
+  
+  .link{
+    color: #090909;
+    font-size: 12px;
+  }
+  
+  .text3{
+    padding-bottom: 31px;
+  }
+  /****************s
+        Portfolio
+  *****************/
+  .image{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .image:first-child{
+    margin-left: 0;
+  }
+  
+  .image:last-child{
+    margin-left: 26px;
+  }
+  /****************
+        Info
+  *****************/
+  .titulo1{
+    text-transform: uppercase;
+    font-size: 12px;
+    display: inline;
+  }
+  
+  .flecha2{
+    margin-right:14px;
+  }
+  
+  .blog{
+    width: 652px;
+    margin-right: 30px;
+    display: inline-block;
+  }
+  
+  .contact{
+    width: 200px;
+    float: right;
+    display: inline-block;
+  }
+  
+  .text{
+    margin: 31px;
+    margin-left: 0;
+    margin-right: 0px;
+  }
+  
+  .conenct{
+    margin-top: 24px;
+  }
+  
+  .image2{
+    margin-left: 13px;
+  }
+  
+  .image2:first-child{
+    margin-left: 0px;
+  }
+  
+  
+  #info{
+    margin-bottom: 45px;
+  }
